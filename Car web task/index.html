@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Carvilla</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="img/favicon.png" rel="icon"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+
+*{box-sizing: border-box;}
+
+.container {
+  position:relative;;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 180%;
+  height: auto;
+ margin: auto;
+}
+
+.hyper {
+font-family: 'Poppins', sans-serif; 
+  font-size: 20px;
+text-decoration: underline #69acc7;
+text-underline-offset: 20px;
+ }
+  
+.img1 {
+  opacity: 0.4;
+}
+
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 180%;
+  height: 90%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 4;
+}
+
+.hero{
+    width: 100%;
+    height: 110vh;
+    background: url(img/parallax-01.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.hero .text{
+    width: 90%;
+    margin: auto;
+} 
+
+.hero .text h4{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hero .text h1{
+    color: #000000;
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.hero .text h1 span{
+    color: #69acc7;
+    font-size: 80px;
+    font-weight: bold;
+   
+}
+.hero .text p{
+    color: #000000;
+   margin-bottom: 30px;
+}
+
+.txt{
+    border: outset;  
+    font-family: 'Poppins', sans-serif; 
+}
+
+div.gallery {
+  
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  height: 190px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 190px;
+  height: 110px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-family:'Poppins', sans-serif; 
+  color: #5f5f5f;
+  
+}
+
+a{ text-decoration: none;
+  font-family: 'Poppins', sans-serif; 
+}
+
+</style>
+</head>
+
+
+<body bgcolor="#ffffff">  
+<!--nav--> 
+<table id="home" border="0" width="100%"  bgcolor="#000000">
+
+      <tr>
+        <td width="10%" align="center"><b><h3><font face="arial"> <div class="img"><img src="img/Screenshot 2024-06-29 214339.png" width="150px"></td></div>
+        <td width="1%" ><a href="#home" style="color: white;">Home</font></td>
+        <td width="1%"><a href="#service" style="color: white;">Service</font></td>
+        <td width="1%"><a href="#cars" style="color: white;">Cars</font></td>
+        <td width="1%"><a href="#brand" style="color: white;">Brand</font></td>
+        <td width="10%"><a href="#footer" style="color: white;">Contact</font></td>
+        <td width="1%"> <img src="img/facebook.png" width="20px"></td>
+        <td width="1%" > <img src="img/twitter.png" width="20px"></td>
+        <td width="1%"> <img src="img/instagram.png" width="20px"></td>
+        </tr>
+ </table>
+
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+       <td  width="100%">
+      <div class="hero">
+      <div class="text">
+              <h4>Powerful, Fun and</h4>
+              <h1><b>Fierce to</b> <br> <span>Drive</span></h1>
+              <p>Real Poise, Real Power, Real Perfomance.</p>
+      </div>
+      </div></td>
+  </tr>
+</table>
+<br>
+<!--nav end-->
+
+<!--service-->
+<table border="0" id="service"  width="100%" cellpadding="15px" cellspacing="0" bgcolor="#fffffF">
+        <td  width="30%"  align="center"><div class="txt"><br><br>
+        <img src="img/car.png"   width="55xpx" ><br><br>
+        <br><B>Largest Dealership of Car</B><br><br>Nemo enim ipsam voluptatem quia <BR> voluptas
+        sit aspernatur aut odit aut den fugit sed.<br><br>
+        </td></div>
+
+        <td  width="30%"  align="center"><div class="txt"><br><br>
+        <img src="img/car-repair.png"   width="55xpx" ><br><br>
+        <br><B>Unlimited Repair Warrenty</B><br><br>Nemo enim ipsam voluptatem quia <BR> voluptas
+        sit aspernatur aut odit aut den fugit sed.<br><br>
+        </td></div>
+
+        <td  width="30%"  align="center"><div class="txt"><br><br>
+        <img src="img/protection.png"   width="55xpx" ><br><br>
+        <br><B>Insurence Support</B><br><br>Nemo enim ipsam voluptatem quia <BR> voluptas
+        sit aspernatur aut odit aut den fugit sed.<br><br>
+        </td></div>
+</table>
+<br><br>
+<!--service-->
+
+
+
+<!--Car-->
+<table  id="cars" border="0" height="300px" width="100%"  bgcolor="#ffffff">
+  <td colspan="3"> <center>  Checkout the Latest Cars </center></td><tr><td colspan="3"><center><div class="hyper"> 
+  <b>Upcoming Cars</b></div></center></td></tr>
+
+  <tr><td><div class="container"><img src="img/1Kia Carnival.png" alt="Avatar" class="image">
+  <div class="overlay"><h3 style="color: rgb(255, 255, 255);"><center><br>Kia Carnival</center></h3><h4 style="color: #ffffff;">
+  <CENTER>Rs. 40.00 - 45.00 L</CENTER></h4>  </div></div></td> 
+ 
+  <td><div class="container"><img src="img/2Audi Q8 .png" alt="Avatar" class="image"><div class="overlay">
+  <h3 style="color: rgb(255, 255, 255);"><center><br>Audi Q8</center></h3><h4 style="color: #ffffff;">
+  <CENTER>Rs.1.17 Cr</CENTER></h4>  </div></div></td>
+
+  <td><div class="container"><img src="img/3Skoda Kodiaq.png " alt="Avatar" class="image"><div class="overlay">
+  <h3 style="color: rgb(255, 255, 255);"><center><br>Skoda Kodiaq</center></h3><h4 style="color: #ffffff;">
+  <CENTER>Rs.40 L</CENTER></h4></div></div></td>
+  </tr>
+</table>
+<br><br>
+
+
+
+
+<table  id="car"  border="0" width="80%" align="center" > 
+<td> <center>  Checkout the  Featured Cars </center></td><tr><td colspan="3"><center>
+<div class="hyper"><b> Featured Cars</b></div></center></td></tr>
+
+<td>
+  <br><br>
+    <div class="gallery">
+    <a target="_blank" href="img/Kia Carens.webp">
+    <img src="img/Kia Carens.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"> <b>Kia Carens</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+
+    <div class="gallery">
+    <a target="_blank" href="img/Audi A4.webp">
+    <img src="img/Audi A4.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Audi A4</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+
+    <div class="gallery">
+    <a target="_blank" href="img/Skoda Kushaq.webp">
+    <img src="img/Skoda Kushaq.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Skoda Kushaq</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+         
+    <div class="gallery">
+    <a target="_blank" href="img/Kia Selto.webp">
+    <img src="img/Kia Selto.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Kia Seltos</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+        
+    <div class="gallery">
+    <a target="_blank" href="img/Audi Q3 Sportback.webp">
+    <img src="img/Audi Q3 Sportback.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Audi Q3 Sportback</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+          
+    <div class="gallery">
+    <a target="_blank" href="img/Skoda Slavia.webp">
+    <img src="img/Skoda Slavia.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Skoda Slavia</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+          
+    <div class="gallery">
+    <a target="_blank" href="img/Kia Sonet.webp">
+    <img src="img/Kia Sonet.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Kia Sonet</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+            
+    <div class="gallery">
+    <a target="_blank" href="img/Audi Q3.webp">
+    <img src="img/Audi Q3.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Audi  Q3</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+              
+    <div class="gallery">
+    <a target="_blank" href="img/Skoda Superb.webp">
+    <img src="img/Skoda Superb.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >Skoda Superb</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+
+    <div class="gallery">
+    <a target="_blank" href="img/kia EV6.webp">
+    <img src="img/kia EV6.webp" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><b >kia EV6</b><br> <h6>Rs.10.52 - 19.67 Lakh</h6></div></div>
+  </td>
+</table>
+</table>
+
+<br><br><br><BR>      
+<!--Car-->
+
+
+<!--brands-->
+<table id="brand" border="0" width="100%"      cellpadding="0" cellspacing="0" bgcolor="">
+  <table border="0" width="80%" align="center" > 
+       <tr> 
+        <td colspan="6"><center><div class="hyper"><b> Brand</b></div></center></td>
+       </tr>
+       <tr>
+                            <td align="center" width="16%"><br><bR><bR><div class="img1"><img src="img/hyundai.png" width="140" height="80"></td></div>
+
+                            <td align="center" width="16%"><br><bR><bR><div class="img1"><img src="img/hsbc.png" width="100" height="40"></td></div>
+
+                            <td align="center" width="16%"><bR><bR><bR><div class="img1"><img src="img/cnn.png" width="60" height="35"></td></div>
+
+                            <td align="center" width="16%"><bR><bR><bR><div class="img1"><img src="img/dish n.png" width="80" height="70"></td></div>
+
+                            <td align="center" width="16%"><bR><bR><bR><div class="img1"><img src="img/acer.png" width="80" height="80"></td></div>
+
+                            <td align="center" width="16%"><bR><bR><bR><div class="img1"><img src="img/honda.png" width="80" height="60"></div></td>      
+         </tr>
+</table></table>
+<br><BR>       <br><Br>                         
+<!--brands-->  
+  
+ 
+<!--footer-->
+<table id="footer" border="0" cellpadding="10" cellspacing="10"   size="2 " bgcolor="black">                                
+  <thead >
+    <tr>
+      <th width="33%" align="left"><img src="img/Screenshot 2024-06-29 214339.png" width="200px"></th>
+      <th width="33%" align="left"><font face="'Poppins', sans-serif"><font style="color: white;">Contact Us
+      </font></font></th>
+      <th width="33%" align="left"><font face="'Poppins', sans-serif" ><font style="color: white;">News Letter
+      </font></font><th>                               
+    </tr>
+  </thead>
+                                     
+   <tr>
+      <td width="30%"><font face="'Poppins', sans-serif"><font style="color: white;">Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam. </font></font>
+      </td>                                  
+      <td><font face="'Poppins', sans-serif"><font style="color: white;"><img src="img/smartphone-call.png" width="25px" align="center">&nbsp;+1(406)555-0120
+      </font></font>
+      </td>
+      <td><label for="email"> <font face="'Poppins', sans-serif"> <input type="email" placeholder="Add mail " ></font></label><button>
+        <font face="'Poppins', sans-serif">Sign-In</font></button></td>
+    </tr>
+                                        
+    <tr>
+      <td><img src="img/facebook.png" width="25px" height="25px"> &nbsp;&nbsp; 
+          <img src="img/whatsapp.png" width="22px" height="22px"> &nbsp; &nbsp; 
+          <img src="img/twitter.png" width="22px" height="22px">&nbsp; &nbsp; 
+          <img src="img/pinterest.png" width="20px" height="20px">&nbsp; &nbsp;
+          <img src="img/github.png" width="22px" height="22px"> 
+      </td>                                   
+      <td><font face="'Poppins', sans-serif"><font style="color: white;"><img src="img/mail (1).png" width="20px"align="center">&nbsp;&nbsp;&nbsp;cardealer.23@gmail.com</font></font>
+      </td>  
+    </tr>
+
+  </table>
+<!--footer-->
+
+
+    </body>
+    </html>
